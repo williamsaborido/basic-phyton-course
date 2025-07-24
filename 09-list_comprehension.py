@@ -8,6 +8,13 @@ for word in wordList:
     if word != "the":
         wordLengths.append(len(word))
 
+print(wordList)
+print(wordLengths)
+
+
 # comprehension notation (linq style)
 words = phrase.split()
 lengths = [len(word) for word in words if word != "the"]
+
+print(words)
+print(lengths)
